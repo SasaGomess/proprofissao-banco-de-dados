@@ -1,0 +1,22 @@
+create database banco_livros;
+
+use banco_livros;
+
+create table tb_livros(
+	pk_id_livro INT PRIMARY KEY auto_increment,
+	nome_livro VARCHAR(100) NOT NULL,
+	preco DECIMAL(8,2),
+    	numero_paginas INT,
+    	data_aquisicao DATE,
+    	data_leitura DATE,
+    	tipo_livro ENUM("fisico", "digital", "audiobook"),
+    	idioma ENUM("inglês", "português", "chinês", "espanhol", "francês", "japonês", "coreano"),
+	status_livro ENUM("lido", "lendo", "não lido"),
+   	genero_livro ENUM("suspense", "romance", "comédia", "terror", "autoajuda", "ação", "ficção científica"),
+    	capa_dura ENUM("mole", "paraná", "cartão", "roller"),
+    	edicao varchar(120),
+    	estado_livro ENUM("novo", "usado", "semi novo"),
+    	avaliacao ENUM("ótimo", "bom", "regular", "ruim", "péssimo")
+);
+
+describe tb_livros;

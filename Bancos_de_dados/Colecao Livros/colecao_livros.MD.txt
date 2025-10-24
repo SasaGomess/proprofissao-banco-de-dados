@@ -197,3 +197,17 @@ create table tb_editora (
     pais_origem VARCHAR(100) NOT NULL,
     endereco VARCHAR(100) NOT NULL
 );
+
+INSERT INTO tb_editora (nome_editora, qtd_autores, qtd_obras, data_fundacao, pais_origem, endereco) values
+ ("Principis", 20, 60, "2010-01-01", "Brasil", "R. José Albino Pereira, 54 - Jardim Alvorada, Jandira - SP"),
+ ("Companhia das Letras", 30, 140, "1986-08-27", "Brasil", "Rua Bandeira Paulista, 702 - Itaim Bibi, São Paulo - SP"),
+ ("Rocco", 25, 90, "1975-05-27", "Brasil", "Rua Marquês de São Vicente, 99 – Gávea, Rio de Janeiro – RJ"),
+ ("HaperColins Publishers", 45, 200, "1989-08-01", "Estados Unidos", "195 Broadway, New York, NY 10007"),
+ ("Penguin Books", 85, 290, "1935-07-30", "Reino Unido", "80 Strand, London WC2R 0RL, Inglaterra"),
+ ("Record", 30, 140, "1940-12-29", "Brasil", "Rua Argentina, 171 – São Cristóvão, Rio de Janeiro – RJ"),
+ ("Objetiva", 20, 60, "1991-01-01", "Brasil", "Rua Bandeira Paulista, 702 – Itaim Bibi, São Paulo – SP"),
+ ("Grupo Planeta", 60, 150, "1949-04-03", "Espanha", "Av. Diagonal, 662-664, 08034 Barcelona"),
+ ("Anagrama", 40, 90, "1969-01-01", "Espanha", "Carrer de Pau Claris, 143, 08009 Barcelona"),
+ ("Sextante", 50, 120, "1990-04-03", "Brasil", "Rua Funchal, 418 - Vila Olímpia, São Paulo – SP");
+ 
+ SELECT * FROM tb_editora;

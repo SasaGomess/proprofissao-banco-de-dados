@@ -39,7 +39,25 @@ INSERT INTO tb_livros (nome_livro, preco, numero_paginas, data_aquisicao, data_l
     "bom"
 );
 
-/*Adcionando mais 2 registros */
+/*Adcionando mais 10 registros */
+
+INSERT INTO tb_livros (nome_livro, preco, numero_paginas, data_aquisicao, data_leitura, tipo_livro, idioma, status_livro, genero_livro, capa_dura, edicao, estado_livro, avaliacao) values (
+	"O pequeno principe",
+    18.63,
+    144,
+    "2025-10-18",
+    "2025-10-21",
+    "fisico",
+    "português",
+    "lendo", 
+    "ficção científica",
+    "mole",
+    "décima edição",
+    "novo",
+    "bom"
+);
+
+/*Adcionando mais 10 registros */
 
 INSERT INTO tb_livros (nome_livro, preco, numero_paginas, data_aquisicao, data_leitura, tipo_livro, idioma, status_livro, genero_livro, capa_dura, edicao, estado_livro, avaliacao) values (
 	"A Hora da Estrela",
@@ -59,11 +77,11 @@ INSERT INTO tb_livros (nome_livro, preco, numero_paginas, data_aquisicao, data_l
 	"Revolução dos bichos",
     29.90,
     152,
-    "2025-09-20",
-    "2025-09-29",
+    "2025-03-25",
+    "2025-10-14",
     "audiobook",
     "português",
-    "nao lida",
+    "não lido",
     "ficção científica",
     "mole",
     "primeira edição",
@@ -71,16 +89,101 @@ INSERT INTO tb_livros (nome_livro, preco, numero_paginas, data_aquisicao, data_l
     "ótimo"
 ), (
 	"Dom Casmurro",
-    24.90,
-    96,
+    34.90,
+    256,
+    "2025-05-24",
     "2025-09-20",
-    "2025-09-29",
     "digital",
     "português",
-    "nao lida",
-    "ficção científica",
-    "mole",
-    "edição setenta e três",
+    "lendo",
+    "romance",
+    "paraná",
+    "edição dezoito",
     "usado", 
     "bom"
+), (
+	"Harry Potter e a Pedra Filosofal",
+    59.90,
+    264,
+    "2025-04-05",
+    "2025-10-20",
+    "físico",
+    "português",
+    "lido",
+    "fantasia",
+    "dura",
+    "edição vinte e um",
+    "novo", 
+    "ótimo"
+), (
+	"A garota do trem",
+    49.90,
+    378,
+    "2025-04-23",
+    "2025-10-20",
+    "físico",
+    "português",
+    "lido",
+    "fantasia",
+    "roller",
+    "primeira edição",
+    "semi novo", 
+    "ótimo"
+),(
+	"O Poder do Hábito",
+    64.90,
+    408,
+    "2025-02-22",
+    "2025-02-25",
+    "físico",
+    "português",
+    "lendo",
+    "autoajuda",
+    "mole",
+    "primeira edição",
+    "semi novo", 
+    "bom"
+), (
+	"É assim que acaba",
+    54.90,
+    368,
+    "2025-03-14",
+    "2025-03-21",
+    "audiobook",
+    "inglês",
+    "lido",
+    "romance",
+    "dura",
+    "primeira edição",
+    "novo", 
+    "regular"
+), (
+	"O Homem Mais Rico da Babilônia",
+    32.90,
+    160,
+    "2025-02-20",
+    "2025-04-02",
+    "físico",
+    "espanhol",
+    "lido",
+    "autoajuda",
+    "dura",
+    "edição vinte e um",
+    "semi novo", 
+    "regular"
+),
+(
+	"Sapiens: Uma Breve História da Humanidade",
+    69.90,
+    464,
+    "2025-05-22",
+    "2025-06-15",
+    "audiobook",
+    "português",
+    "lendo",
+    "filosofia",
+    "roller",
+    "primeira edição",
+    "novo", 
+    "regular"
 );
